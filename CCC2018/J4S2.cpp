@@ -8,9 +8,9 @@ int main() {
     cin >> n;
 
     for (int a = 0; a < n; ++a) {
-		for (int b = 0; b < n; ++b) {
-			cin >> grid[a][b];
-		}
+		    for (int b = 0; b < n; ++b) {
+			       cin >> grid[a][b];
+		    }
     }
 
     if (grid[0][0] < grid[0][1] && grid[0][0] < grid[1][0]) {
