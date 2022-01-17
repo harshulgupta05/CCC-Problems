@@ -28,7 +28,7 @@ int main() {
     for (int i = 0; i < t; i++) {
         int current = numbers[i];
 
-        for (int j = 2; j <= current; j++) {
+        for (int j = current; j >= 2; j = j - 1) {
             if (isPrime(j)) {
                 int diff = current - j;
 
